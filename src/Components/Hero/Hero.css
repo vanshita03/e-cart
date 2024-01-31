@@ -1,0 +1,177 @@
+.hero {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  /* margin-bottom: 150px; */
+  z-index: 1;
+}
+.hero-left h3 {
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.hero-left h5{
+  position: absolute;
+  top: 250px;
+  left: 35px;
+  font-size: 30px;
+}
+.hero-right button {
+  position: absolute;
+  top: 480px;
+  left: 150px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  /* margin-left: 20px; */
+  padding: 15px 40px;
+}
+.hero-hand-icon {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  width: 500px;
+  font-size: 20px;
+}
+.hero-hand-icon h1 {
+  font-size: 50px;
+}
+
+.hero-right-img img {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 800px;
+  border-radius: 10px;
+}
+.itpop1 {
+  color: black;
+  background-image: url(https://media.istockphoto.com/id/932542786/photo/abstract-blur-people-in-modern-shopping-mall-interior-defocused-background.jpg?s=1024x1024&w=is&k=20&c=FAp9JKBsMcOQPzT0PYwlJ1Sic0YXmYiKMH7S9gj-FKM=);
+  background-size: 100% 100%;
+}
+.itpop {
+  color: black;
+  background-image: url(https://media.istockphoto.com/id/932542786/photo/abstract-blur-people-in-modern-shopping-mall-interior-defocused-background.jpg?s=1024x1024&w=is&k=20&c=FAp9JKBsMcOQPzT0PYwlJ1Sic0YXmYiKMH7S9gj-FKM=);
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width:992px) {
+  .hero-left h3 {
+    position: absolute;
+    top: 35%;
+    left: 20px;
+  }
+  .hero-left h5 {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+  }
+  .hero-right-img img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    border-radius: 10px;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-left h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 20px;
+  }
+  .hero-left h5 {
+    position: absolute;
+    top: 55%;
+    font-size: 20px;
+  }
+  .hero-right button {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    padding: 10px 30px;
+  }
+  .hero-right-img img {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 180px;
+    left: 390px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-left h5{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    font-size: 19px;
+  }
+  .hero-left h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+.hero-hand-icon p{
+ position: absolute;
+ left: 0;
+ display: none;
+}
+
+.hero-right-img img{
+ width: 150px;
+ height: 200px;
+ position: absolute;
+ left: 59%;
+}
+.hero-right button{
+  position: absolute;
+  top: 70%;
+}
+  /* .hero{
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  .hero-left h5{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    font-size: 13px;
+  }
+  .hero-left h3 {
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+.hero-hand-icon p{
+ position: absolute;
+ left: 0;
+ display: none;
+}
+
+.hero-right-img img{
+ width: 130px;
+ height: 200px;
+ position: absolute;
+ left: 50%;
+}
+.hero-right button{
+  position: absolute;
+  top: 70%;
+}
+  /* .hero{
+    display: none;
+  } */
+}

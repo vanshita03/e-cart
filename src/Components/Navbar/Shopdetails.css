@@ -1,0 +1,69 @@
+.shop-imgss{
+    width: 300px;
+    height: 400px;
+}
+.shop-imgss img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.shop-buy{
+    display: flex;
+    justify-content: center;
+   margin-top: 60px;
+    gap: 50px;
+    padding-top: 60px;
+}
+.shop-cart{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(black,rgb(216, 183, 37),white);
+}
+.shop-details h3{
+    font-size: 20px;
+    font-family: "font-family: 'Teko', sans-serif;";
+}
+.shop-details h4{
+    font-size: 20px;
+}
+.shop-size{
+    display: flex;
+    justify-content: space-around;
+}
+.shop-size .size{
+border: 1px solid #ebebeb;
+border-radius: 3px;
+cursor: pointer;
+padding: 15px 18px;
+background: #fbfbfb;
+}
+.shop-details h5{
+    font-size: 20px;
+}
+.shop-details button{
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.incr-decr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.incr-decr button{
+    width: 50px;
+    border-radius: 0;
+}
+/* .size button :hover{
+    background-color: blanchedalmond;
+} */
+
+
+

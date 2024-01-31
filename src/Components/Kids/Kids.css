@@ -1,0 +1,136 @@
+.kids-css {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: linear-gradient(90deg, #c56148, #e1ffea22 40%);
+  margin-bottom: 80px;
+}
+.Kids-left {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+.kids-right {
+  width: 150px;
+  height: 200px;
+}
+.kids-right img {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+}
+.kidsimg {
+  width: 200px;
+  height: 200px;
+}
+.kidsimg img {
+  width: 100%;
+  height: 100%;
+}
+.kids-shop {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Kids-left button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: burlywood;
+}
+.kids-fun {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.kids-details {
+  width: 200px;
+  height: 150px;
+}
+@media screen and (max-width: 992px) {
+  .kids-right img {
+    position: absolute;
+    left: 450px;
+  }
+  .kids-shop {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kids-css {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .Kids-left {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+  .kids-right img {
+    position: absolute;
+    left: 450px;
+  }
+  .kids-shop {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  .kids-details h3 {
+    font-size: 15px;
+  }
+  .kidsimg img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .kids-right img {
+    position: absolute;
+    left: 250px;
+  }
+  .kids-shop {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 20px;
+  }
+  .kids-details h3 {
+    font-size: 15px;
+  }
+  .kidsimg img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 372px) {
+  .Kids-left {
+    font-size: 10px;
+  }
+  .kids-right img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+  }
+  .kids-shop {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kids-details h3 {
+    font-size: 10px;
+  }
+  .kidsimg img {
+    width: 100px;
+    height: 100px;
+  }
+}

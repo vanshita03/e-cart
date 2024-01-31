@@ -1,0 +1,80 @@
+let all_product = [
+    {
+        id:1,
+        img:"https://www.google.com/aclk?sa=l&ai=DChcSEwitzdDxzaeDAxVJqGYCHV_0A1cYABANGgJzbQ&ase=2&gclid=CjwKCAiAyp-sBhBSEiwAWWzTnoxwJ9ZPLNfGvE-rQxmnCl8eXVwpr9LDqMM1H-GF5jUxcnx3OLH5kBoCWK4QAvD_BwE&sig=AOD64_2mXSoD9yk6HBTyT_8E_WIrTHG7cQ&ctype=5&nis=6&adurl&ved=2ahUKEwid7sPxzaeDAxW_S2wGHfQFAYkQvhd6BQgBEJkB",
+        name:"Purple Dobby Smocked Maxi Dress",
+        price:1979,
+    },
+    {
+        id:2,
+        img:"https://wyshlist.io/cdn/shop/files/xs-194-brown-aahwan-original-imagqh96wwgznyb9.webp?v=1693827779&width=823",
+        name:"Sweetheart Flare Mini Dress with Puff Sleeves",
+        price:799,
+    },
+    {
+        id:3,
+        img:"https://uptownie.com/cdn/shop/files/Untitleddesign_7_e02f43ea-dbc0-4b36-9445-9d6128c78550_540x.jpg?v=1686038527",
+        name:"Cotton Two Piece Shorts and Shirt Set",
+        price:1740,
+    },
+    {
+        id:4,
+        img:"https://www.alamodelabel.in/cdn/shop/products/WhatsAppImage2022-02-16at7.31.46PM_2_800x800.jpg?v=1689673203",
+        name:"Luxury Sheath",
+        price:2099,
+    },
+    {
+        id:5,
+        img:"https://wyshlist.io/cdn/shop/files/s-1908-sheetal-associates-original-imagmg8ybjfqr2cz.jpg?v=1694613335&width=823",
+        name:"Charming Georgette Puff Sleeve Mini Dress",
+        price:699,
+    },
+    {
+        id:6,
+        img:"https://uptownie.com/cdn/shop/files/1_9_540x.png?v=1699436943",
+        name:"Three Piece Linen Co-ord Set",
+        price:2980,
+    },
+    {
+        id:7,
+        img:"https://www.ethnicplus.in/media/catalog/product/cache/1d5df636cf8c8988ea2d2c570bb7c21d/a/d/ad-sinng-207_2_.jpg",
+        name:"Fascinating Yellow Organza Party Wear Palazzo Top With Ruffle Jacket",
+        price:2999,
+    },
+    {
+        id:8,
+        img:"https://sablev.net/cdn/shop/articles/SL-08-2-1160x1160.jpg?v=1584636266",
+        name:"LATEST AND TRENDING LAWN DRESSES DESIGNS IN PAKISTAN FOR SUMMER 2019 Sable Vogu",
+        price:1979,
+    },
+    {
+        id:9,
+        img:"https://5.imimg.com/data5/SELLER/Default/2023/3/YZ/QM/SE/28280455/designer-gown-suit-for-casual-wear-latest-designs-in-2023-looking-nice-model-500x500.jpg",
+        name:"gown suit",
+        price:1879,
+    },
+    {
+        id:10,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6Pk16ggNV_JcvEchnzIMB3MuLA1iCc448-eYH3YaI0N01NUm-3pKzxsnE5mEtgx1JXk&usqp=CAU",
+        name:"white smokey dress",
+        price:1579,
+    },
+    {
+        id:11,
+        img:"https://img.freepik.com/premium-psd/illustrated-beach-dress-design-effortless-style_943698-915.jpg",
+        name:" Illustrated beach dress design for effortless style",
+        price:1979,
+    },
+    {
+        id:12,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBbX7znB0OZWkzQdnwrO680v3KUjJvImbNDQ&usqp=CAU",
+        name:"Trendy Baby girls dress",
+        price:2979,
+    },
+    {
+        id:13,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXSmjnIN-0wU0s_xswHrGKddXjejBrJLgsg&usqp=CAU",
+        name:"baby dress",
+        price:1979,
+    },
+]

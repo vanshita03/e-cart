@@ -1,0 +1,155 @@
+.men {
+  background-image: url(https://img.freepik.com/premium-photo/modern-luxury-shopping-mall-department-store-interior-blur-abstract-defocused-background-with-bokeh-light_293060-2665.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mens-css {
+  width: 100%;
+  height: 400px;
+  /* background: linear-gradient(180deg,#db6619,#e1ffea22 60%); */
+  position: relative;
+  background-image: linear-gradient(90deg, #db8018, #e1ffea22 40%);
+}
+
+.mens-left {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+
+.mens-left h1 {
+  font-size: 70px;
+  color: #db6619;
+}
+
+.mens-left button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  background: #db6619;
+  color: white;
+}
+
+span {
+  color: #db6619;
+}
+
+.mens-right {
+  width: 200px;
+  height: 250px;
+}
+
+.mens-right img {
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  border-radius: 20px;
+}
+
+.mens-middle {
+  margin-top: 200px;
+  background-image: url(https://img.freepik.com/premium-photo/modern-luxury-shopping-mall-department-store-interior-blur-abstract-defocused-background-with-bokeh-light_293060-2665.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 992px) {
+  .mens-left h1 {
+    font-size: 40px;
+  }
+  .mens-right img {
+    position: absolute;
+    top: 100px;
+    left: 450px;
+  }
+  .mens-middle {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    justify-content: center;
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mens-right img {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+  }
+  .mens-left h1 {
+    font-size: 40px;
+  }
+  .mens-middle {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mens-right img {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+  }
+  .mens-left h1 {
+    font-size: 30px;
+  }
+  .mens-left {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+
+  .mens-middle {
+    display: grid;
+    grid-template-columns: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .mens-right img {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+  }
+  .mens-left h1 {
+    font-size: 20px;
+  }
+  .mens-left {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+  }
+
+  .mens-middle {
+    display: grid;
+    grid-template-columns: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .mens-left h2 {
+    font-size: 15px;
+  }
+  .mens-left button {
+    width: 130px;
+    height: 50px;
+  }
+  .mens-right img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+  }
+}
